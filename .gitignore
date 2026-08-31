@@ -3,6 +3,13 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Project-local generated and working files
+.gitignore
+.DS_Store
+output/
+tmp/
+docs/*-test.md
+
 # C extensions
 *.so
 
@@ -149,11 +156,15 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
 venv/
 ENV/
+artifacts/
+archive/
 env.bak/
 venv.bak/
 
